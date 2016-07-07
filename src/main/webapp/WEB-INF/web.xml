@@ -120,8 +120,8 @@
     </filter-mapping>
 
     <!--  	No need for welcome-file declaration here.
-    		See inside spring/mvc-core-config.xml :
-    		<mvc:view-controller path="/" view-name="welcome" />
+    		See inside MvcCoreConfig :
+    		addViewControllers()
     -->
 
 </web-app>

@@ -31,7 +31,7 @@ import org.springframework.samples.petclinic.service.ClinicService;
  * Spring ref doc: http://static.springsource.org/spring/docs/current/spring-framework-reference/html/validation.html#format-Formatter-SPI
  * - A nice blog entry from Gordon Dickens: http://gordondickens.com/wordpress/2010/09/30/using-spring-3-0-custom-type-converter/
  * <p/>
- * Also see how the bean 'conversionService' has been declared inside /WEB-INF/mvc-core-config.xml
+ * Also see how the bean 'conversionService' has been declared inside MvcCoreConfig
  *
  * @author Mark Fisher
  * @author Juergen Hoeller
