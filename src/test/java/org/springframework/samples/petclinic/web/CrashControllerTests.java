@@ -8,7 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.samples.petclinic.BusinessConfig;
-import org.springframework.samples.petclinic.MvcConfig;
+import org.springframework.samples.petclinic.MvcCoreConfig;
 import org.springframework.samples.petclinic.ToolsConfig;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
@@ -24,7 +24,7 @@ import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
  * @author Colin But
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {BusinessConfig.class, ToolsConfig.class, MvcConfig.class})
+@ContextConfiguration(classes = {BusinessConfig.class, ToolsConfig.class, MvcCoreConfig.class})
 @WebAppConfiguration
 @ActiveProfiles("spring-data-jpa")
 public class CrashControllerTests {

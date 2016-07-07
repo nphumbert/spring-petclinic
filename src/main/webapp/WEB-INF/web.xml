@@ -59,7 +59,7 @@
         </init-param>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>org.springframework.samples.petclinic.MvcConfig</param-value>
+            <param-value>org.springframework.samples.petclinic.MvcCoreConfig</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
