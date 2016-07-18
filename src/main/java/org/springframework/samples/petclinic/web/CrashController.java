@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author Michael Isvy
  *         <p/>
  *         Also see how the bean of type 'SimpleMappingExceptionResolver' has been declared inside
- *         /WEB-INF/mvc-core-config.xml
+ *         MvcCoreConfig
  */
 @Controller
 public class CrashController {
